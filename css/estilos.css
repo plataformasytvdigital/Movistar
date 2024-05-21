@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: auto;
+  margin: 2;
   font-family: sans-serif;
   background:#0c0c0c;
   background-size: 90vw 90vh;
@@ -155,7 +155,7 @@ body {
   padding-left: auto;
   color: black;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   .container {
       width: 100%;
 	} 
