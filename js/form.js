@@ -2,7 +2,7 @@ document.querySelector('#submit').addEventListener('click', e => {
   e.preventDefault();
 
   //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUÍ:
-  const teléfono = '573103509843';
+  const teléfono = '573143946784';
 
   
   const correo = document.querySelector('#email').value;
@@ -31,7 +31,9 @@ document.querySelector('#submit').addEventListener('click', e => {
   resp.classList.remove('send');
 
   const url = `https://api.whatsapp.com/send?phone=${teléfono}&text=
-          *_PEDIDO_*%0A
+          *_ASESOR_*%0A Harlinton Montoya
+          *_CELULAR_*%0A 3103509843
+          ****************************
           👥 *NOMBRE*%0A
           ${nombre}%0A
           🪪 *CEDULA*%0A
