@@ -20,6 +20,7 @@ document.querySelector('#submit').addEventListener('click', e => {
   const barrio = document.querySelector('#barrio').value;
   const dirección = document.querySelector('#dirección').value;
   const código = document.querySelector('#código').value;
+  const servicio = document.querySelector('#servicio').value;
   const observaciones = document.querySelector('#observaciones').value;
  
  
@@ -59,6 +60,8 @@ document.querySelector('#submit').addEventListener('click', e => {
           ${dirección}%0A
           📌 *ESTRATO*%0A
           ${código}%0A
+          📺 *SERVICIO*%0A
+          ${servicio}%0A
           📓 *OBSERVACIONES*%0A
           ${observaciones}`;
           
