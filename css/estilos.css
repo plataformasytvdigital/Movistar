@@ -19,7 +19,7 @@ body {
   box-shadow: 0 0 20px 1px rgb(243, 240, 240);
   position: relative;
   background: black;
-  box-shadow: 7px 13px 40px #ff3131;
+  box-shadow: 7px 13px 40px #03b403;
 }
 
 .imgLogo {
@@ -42,10 +42,10 @@ body {
 }
 .formulario__titulo,
 .formulario__subtitulo {
-  color: #ff3131;
+  color: #03b403;
 }
 .formulario__parrafo {
-  color: #ff3131;
+  color: #03b403;
 }
 .formulario__input,
 .formulario__label {
@@ -80,13 +80,13 @@ body {
   /*position: absolute;*/
   /*margin-top: -78px;*/
   /*z-index: -20;*/
-  color:  #ff3131;
+  color:  #03b403;
   /*transition: all 0.2s;*/
   margin: 0;
   font-size: 14px;
 }
 .formulario__submit {
-  background:   #860202;
+  background:   #014917;
   color: rgb(250, 250, 250);
   padding: 30px 20px;
   cursor: pointer;
@@ -100,8 +100,8 @@ body {
   transition: 0.2s;
 }
 .formulario__submit:hover{
-  background: #500101;
-  box-shadow: 0 0 10px  #f52d2d, 0 0 40px  #f52d2d,0 0 80px   #f52d2d;
+  background: #003317;
+  box-shadow: 0 0 10px  #47f59e, 0 0 40px  #47f59e,0 0 80px   #47f59e;
 }
 
 /*Centrar los campos del formulario (Los input y el boton de Enviar al WhatsApp, que tambien es un input)*/
