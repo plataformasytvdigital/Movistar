@@ -31,9 +31,11 @@ document.querySelector('#submit').addEventListener('click', e => {
   resp.classList.remove('send');
 
   const url = `https://api.whatsapp.com/send?phone=${teléfono}&text=
-          *_ASESOR_*%0A Harlinton Montoya
-          *_CELULAR_*%0A 3103509843
-          ****************************
+         👨‍⚖️ *ASESOR*%0A 
+          Harlinton Montoya%0A
+          📱 *CELULAR*%0A 
+          3143946784%0A
+          ****************************%0A
           👥 *NOMBRE*%0A
           ${nombre}%0A
           🪪 *CEDULA*%0A
